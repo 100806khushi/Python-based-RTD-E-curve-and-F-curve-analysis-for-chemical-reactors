@@ -1,6 +1,9 @@
 # RTD Analysis using Python
 
-This project demonstrates Residence Time Distribution (RTD) analysis using Python.
+This project demonstrates Residence Time Distribution (RTD) analysis using Python for chemical reactors.
+
+RTD helps in understanding how fluid flows through a reactor and how long particles stay inside it.
+
 
 ## Features
 - E-curve for CSTR
@@ -12,5 +15,16 @@ This project demonstrates Residence Time Distribution (RTD) analysis using Pytho
 - NumPy
 - Matplotlib
 
-## Purpose
-To understand reactor flow behavior using graphical methods.
+## Output
+The program generates plots showing:
+- E-curve for CSTR
+- F-curve (cumulative distribution)
+- Comparison between CSTR and PFR
+
+## How to Run
+
+1. Install required libraries:
+   pip install numpy matplotlib
+
+2. Run the Python file:
+   python efcurve.py
